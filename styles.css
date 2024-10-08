@@ -1929,6 +1929,14 @@ gap: 1.25rem;
 height: 12rem !important;
 }
 
+.centered-image img {
+    max-width: 60%!important;
+    float: right;
+}
+.left img {
+    max-width: 60%!important;
+}
+        
 .container.style2>.wrapper>.inner {
 --spacing: 1.53125rem;
 }
