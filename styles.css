@@ -102,9 +102,14 @@ display: block;
 }
 
 body {
-line-height: 1;
-}
-
+            background-image: url('img/width_799.jpg');
+            background-size: cover; /* Ensures the image covers the whole background */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents repeating the background image */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Removes default margin */
+    line-height: 1;
+        }
 ol,
 ul {
 list-style: none;
