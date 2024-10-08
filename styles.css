@@ -122,7 +122,16 @@ q:after {
 content: '';
 content: none;
 }
-
+.gallery.style1 ul li .caption a {
+    padding-bottom: 0rem;
+    text-align: center;
+    color: #3D3D3D;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1em;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    font-weight: 400;
+}
 table {
 border-collapse: collapse;
 border-spacing: 0;
