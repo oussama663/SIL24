@@ -1936,7 +1936,9 @@ height: 12rem !important;
 .left img {
     max-width: 60%!important;
 }
-        
+.buttons.style1 li a{
+        height: 5rem;
+}
 .container.style2>.wrapper>.inner {
 --spacing: 1.53125rem;
 }
