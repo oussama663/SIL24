@@ -131,7 +131,13 @@ content: none;
     line-height: 1.5;
     text-decoration-line: underline;
     font-weight: 400;
+    transition: color 0.3s ease;
 }
+
+.gallery.style1 ul li .caption a:hover {
+color: #b65b35;
+}
+
 table {
 border-collapse: collapse;
 border-spacing: 0;
