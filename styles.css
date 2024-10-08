@@ -345,7 +345,7 @@ margin-bottom: calc(var(--padding-vertical) * -1) !important;
 
         .image-container .center-image {
             flex-grow: 5;
-            text-align: center;
+            text-align: right;
         }
 
         .image-container img {
