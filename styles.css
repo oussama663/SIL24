@@ -988,7 +988,7 @@ flex-wrap: wrap;
 display: inline-block;
 width: 14rem;
 align-content: center;
-height: 3.5rem;
+height: 5rem;
 line-height: 35px;
 padding: 0 0.5rem;
 vertical-align: middle;
@@ -1946,7 +1946,6 @@ height: 12rem !important;
 
 .buttons.style1 li a {
 width: 10rem;
-height: 5rem!important;
 }
 }
 
