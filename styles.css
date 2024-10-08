@@ -1959,9 +1959,9 @@ height: 12rem !important;
 --spacing: 1.3125rem;
 }
 
-.buttons.style1 li a {
+/* .buttons.style1 li a {
 width: 10rem;
-}
+} */
 }
 
 @media (max-width: 360px) {
