@@ -124,7 +124,6 @@ content: none;
 }
 .gallery.style1 ul li .caption span {
     padding-bottom: 0rem;
-    text-align: center;
     color: #3D3D3D;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1em;
@@ -132,12 +131,15 @@ content: none;
     text-decoration-line: underline;
     font-weight: 400;
 }
-
+.gallery.style1 ul li .caption{
+    text-align: center;
+}
 .gallery.style1 ul li a {
     transition: color 0.3s ease;
+    text-decoration-line: initial;
 }
 
-.gallery.style1 ul li a:hover {
+.gallery.style1 ul li a:hover p{
 color: #b65b35;
 }
 
