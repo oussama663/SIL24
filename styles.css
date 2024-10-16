@@ -122,7 +122,7 @@ q:after {
 content: '';
 content: none;
 }
-.gallery.style1 ul li .caption a {
+.gallery.style1 ul li .caption span {
     padding-bottom: 0rem;
     text-align: center;
     color: #3D3D3D;
@@ -131,10 +131,13 @@ content: none;
     line-height: 1.5;
     text-decoration-line: underline;
     font-weight: 400;
+}
+
+.gallery.style1 ul li a {
     transition: color 0.3s ease;
 }
 
-.gallery.style1 ul li .caption a:hover {
+.gallery.style1 ul li a:hover {
 color: #b65b35;
 }
 
